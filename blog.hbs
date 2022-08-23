@@ -4,9 +4,9 @@
 <main class="site-main">
 
     <div class="post-feed">
-        {{#get "posts" filter="tag:portfolio"}}
+        {{#get "posts" filter="tag:blog"}}
             {{#foreach posts}}
-                {{> "loop"}}
+                    {{> "loop"}}
             {{/foreach}}
         {{/get}}
     </div>
