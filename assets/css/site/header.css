@@ -13,3 +13,11 @@
 .gh-head-menu {
     font-weight: 600;
 }
+
+.gh-head-menu a {
+    color: var(--primary-text-color);
+}
+
+.gh-head-menu .nav-current a {
+    color: var(--color-darker-gray);
+}

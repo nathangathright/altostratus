@@ -66,16 +66,19 @@
     </div>
 
     <footer class="gh-foot gh-outer">
-        <div class="gh-foot-inner gh-inner">
+        <div class="footer-inner gh-inner">
             <div class="gh-copyright">
-                {{@site.title}} © {{date format="YYYY"}}
+                &copy; {{date format="YYYY"}} <a href="{{@site.url}}">{{@site.title}}</a> &middot; Everything&nbsp;is&nbsp;a&nbsp;remix.
             </div>
-            <nav class="gh-foot-menu">
-                {{navigation type="secondary"}}
+
+            <nav class="social-links">
+                <a target="_blank" rel="noopener" href="https://twitter.com/NathanG">{{> "icons/twitter"}}</a>
+                <a target="_blank" rel="noopener" href="https://instagram.com/NathanGathright">{{> "icons/instagram"}}</a>
+                <a target="_blank" rel="noopener" href="https://linkedin.com/in/NathanGathright">{{> "icons/linkedin"}}</a>
+                <a target="_blank" rel="noopener" href="https://dribbble.com/NathanG">{{> "icons/dribbble"}}</a>
+                <a target="_blank" rel="noopener" href="https://github.com/NathanGathright">{{> "icons/github"}}</a>
+                <a target="_blank" rel="noopener" href="{{@site.url}}/rss/" title="RSS" rel="noopener">{{> "icons/rss"}}</a>
             </nav>
-            <div class="gh-powered-by">
-                <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
-            </div>
         </div>
     </footer>
 

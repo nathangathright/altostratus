@@ -42,7 +42,7 @@
 }
 
 .has-serif-title :where(.post-feed, .single-post) .post-title {
-    font-family: var(--font-serif);
+    font-family: var(--font-headline);
 }
 
 .post-meta {

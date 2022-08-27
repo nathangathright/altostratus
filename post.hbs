@@ -34,14 +34,11 @@
             {{> "author-box"}}
         {{/if}}
 
-    </article>
+        {{#unless @member}}
+            {{> subscribe-form}}
+        {{/unless}}
 
-    {{#if comments}}
-        <section class="gh-comments gh-canvas">
-            <h3 class="related-title">Comments ({{comment_count empty="0" singular="" plural=""}})</h3>
-            {{comments title="" count=false}}
-        </section>
-    {{/if}}
+    </article>
 
     {{#if @custom.show_related_posts}}
         {{> "related"}}

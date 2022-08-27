@@ -16,7 +16,8 @@
     --animation-base: ease-in-out;
     --shadow-base: 0 0 5px rgba(0, 0, 0, 0.2);
     --font-sans: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-    --font-serif: Lora, Times, serif;
+    --font-serif: 'Tiempos Text', Lora, Times, serif;
+    --font-headline: 'Tiempos Headline', serif;
     --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     --content-font-size: 1.7rem;
 }

@@ -1,0 +1,42 @@
+.footer-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  padding: 8px;
+  transition: all 0.2s ease;
+}
+
+.social-links svg {
+  display: block;
+  width: 20px;
+  fill: currentColor;
+}
+
+
+@media (max-width: 767px) {
+  .footer-inner {
+    flex-direction: column-reverse;
+  }
+
+  .social-links {
+    margin: 0;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .social-links a {
+    padding: 8px;
+    margin: 0;
+  }
+
+}
