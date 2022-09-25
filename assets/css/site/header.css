@@ -1,13 +1,26 @@
 .gh-head-logo {
     position: relative;
     font-weight: 800;
+    position: relative;
+    width: 120px;
+    height: 64px;
+    display: flex;
+    place-content: center;
+    place-items: center;
 }
 
-.gh-head-logo img:nth-child(2) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
+.gh-head-logo:hover {
+    cursor: url("/assets/media/refresh.svg") 0 0, pointer;
+    cursor: -webkit-image-set(url("/assets/media/refresh.png") 1x, url("/assets/media/refresh@2x.png") 2x) 0 0, pointer;
+}
+
+#video {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+canvas#canvas {
+    mix-blend-mode: multiply;
 }
 
 .gh-head-menu {
@@ -20,4 +33,11 @@
 
 .gh-head-menu .nav-current a {
     color: var(--color-darker-gray);
+}
+
+video {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
