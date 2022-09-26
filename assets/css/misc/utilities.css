@@ -19,7 +19,7 @@
 }
 
 .u-placeholder.horizontal::before {
-    padding-bottom: 50%;
+    padding-bottom: calc(100% / 16 * 9);
 }
 
 .u-placeholder.rectangle::before {
