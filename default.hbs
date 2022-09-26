@@ -53,8 +53,12 @@
     </header>
 
     {{#is "home"}}
-        {{#if @custom.show_featured_posts}}
-            {{> "featured"}}
+        {{#if @site.description}}
+        <div class="gh-canvas">
+            <div class="headline kg-width-wide">
+                <h1 class="post-title balance-text">{{@site.description}}</h1>
+            </div>
+        </div>
         {{/if}}
     {{/is}}
 

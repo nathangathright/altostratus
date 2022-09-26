@@ -47,3 +47,15 @@ video {
     width: 1px;
     overflow: hidden;
 }
+
+.headline {
+    display: flex;
+    place-content: center;
+    font-family: var(--font-headline);
+}
+
+.headline .post-title {
+    font-size: 3.6rem;
+    margin-bottom: 0;
+    text-align: center;
+}
