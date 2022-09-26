@@ -7,6 +7,12 @@
     display: flex;
     place-content: center;
     place-items: center;
+    mix-blend-mode: multiply;
+}
+
+.dark-mode .gh-head-logo {
+    mix-blend-mode: lighten;
+    filter: invert(1);
 }
 
 .gh-head-logo:hover {
@@ -17,10 +23,6 @@
 #video {
     align-self: flex-start;
     justify-self: flex-start;
-}
-
-canvas#canvas {
-    mix-blend-mode: multiply;
 }
 
 .gh-head-menu {
