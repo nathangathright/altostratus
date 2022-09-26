@@ -20,6 +20,10 @@
     cursor: -webkit-image-set(url("/assets/media/refresh.png") 1x, url("/assets/media/refresh@2x.png") 2x) 0 0, pointer;
 }
 
+.gh-head-logo img {
+    max-height: none;
+}
+
 #video {
     align-self: flex-start;
     justify-self: flex-start;
