@@ -59,3 +59,7 @@ video {
     margin-bottom: 0;
     text-align: center;
 }
+
+.dark-mode .is-head-open .gh-head {
+    background-color: var(--dark-mode-bg-color)!important;
+}
